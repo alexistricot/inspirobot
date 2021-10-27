@@ -1,0 +1,36 @@
+{
+    "name": "inspirobot",
+    "version": "1.0.0",
+    "description": "A Discord bot to send quotes from Inspirot (https://inspirobot.me/).",
+    "main": "bot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexistricot/inspirobot.git"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "inspirobot"
+    ],
+    "author": "A. Tricot",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alexistricot/inspirobot/issues"
+    },
+    "homepage": "https://github.com/alexistricot/inspirobot#readme",
+    "dependencies": {
+        "@discordjs/builders": "^0.7.0",
+        "@discordjs/rest": "0.1.0-canary.0",
+        "discord-api-types": "^0.24.0",
+        "discord.js": "^13.1.0",
+        "dotenv": "^10.0.0",
+        "eslint": "^7.32.0",
+        "prettier": "^2.3.2"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.4"
+    }
+}
